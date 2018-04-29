@@ -12,14 +12,16 @@ Backstory :A ship platform on one of Humanity's many planets. Provides fuel and 
 3vs3 and 4vs4 most applicable
 ______________________________________________________________________________________________
 
-Textures: Philip K's Pk02 @ www.philipk.net
+Textures: 
+
+Philip K's Pk02 @ www.philipk.net
 Very big thanks to him
+
+Also the trusty Ingar for the Osirion skybox texture
 
 Applications used:
 
  -Netradiant
- -Gimp 2
- -Terragen Classic
 
 ______________________________________________________________________________________________
 
@@ -59,4 +61,4 @@ ________________________________________________________________________________
 
 By EmperorJack for Unvanquished
 
-Note on the .map, it will have to be scaled up by 0.25 on all axis for any modification as it was reduced because of scale issues. (The map was too spacious)
+This version is a revised brushwork version. The entire map's brushwork was redone for ease of edit. This allowed me to bring the map up to a proper brushwork standard. Note some areas may still be WIP because of this.
