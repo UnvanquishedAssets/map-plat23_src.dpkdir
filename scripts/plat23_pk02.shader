@@ -1,309 +1,315 @@
-//Plat23 tailored pk02 shaders
 
+// --------------------
+// textures/plat23_pk02
+// --------------------
 
-textures/plat23_pk02/pk02_ceiling03
+textures/plat23_pk02/computer01a_250
 {
-	qer_editorimage textures/plat23_pk02/pk02_ceiling03_C
-	diffusemap 	textures/plat23_pk02/pk02_ceiling03_C
-	specularmap 	textures/plat23_pk02/pk02_ceiling03_S
-	bumpmap 	textures/plat23_pk02/pk02_ceiling03_N
+	qer_editorImage     textures/shared_pk02_src/computer01a_p
+
+	q3map_surfacelight  250
+	q3map_lightRGB      0.8 0.9 1.0
+
+	diffuseMap          textures/shared_pk02_src/computer01a_d
+	normalMap           textures/shared_pk02_src/computer01a_n
+	specularMap         textures/shared_pk02_src/computer01a_s
+	{
+		map   textures/shared_pk02_src/computer01a_a
+		blend add
+		red   0.2
+		green 0.2
+		blue  0.3
+	}
 }
 
-textures/plat23_pk02/pk02_computer01a
+textures/plat23_pk02/dec_num02
 {
-	qer_editorimage textures/plat23_pk02/pk02_computer01a_C
-	diffusemap 	textures/plat23_pk02/pk02_computer01a_C
-	specularmap 	textures/plat23_pk02/pk02_computer01a_S
-	bumpmap 	textures/plat23_pk02/pk02_computer01a_N
-	q3map_surfacelight 250
-	q3map_lightimage textures/plat23_pk02/pk02_computer01a_I
-	q3map_lightRGB 0.8 1 1
+	qer_editorImage     textures/shared_pk02_src/dec_num02_p
+	qer_trans           0.30
+
+	cull                none
+	surfaceparm         trans
+	polygonoffset
+
+	{
+		map       textures/shared_pk02_src/dec_num02_d
+		stage     diffuseMap
+		blend     blend
+	}
 }
 
-textures/plat23_pk02/pk02_floor_cyl01
+textures/plat23_pk02/dec_num03
 {
-	qer_editorimage textures/plat23_pk02/pk02_floor_cyl01_C
-	diffusemap 	textures/plat23_pk02/pk02_floor_cyl01_C
-	specularmap 	textures/plat23_pk02/pk02_floor_cyl01_S
-	bumpmap 	textures/plat23_pk02/pk02_floor_cyl01_N
+	qer_editorImage     textures/shared_pk02_src/dec_num03_p
+	qer_trans           0.30
+
+	cull                none
+	surfaceparm         trans
+	polygonoffset
+
+	{
+		map       textures/shared_pk02_src/dec_num03_d
+		stage     diffuseMap
+		blend     blend
+	}
 }
 
-textures/plat23_pk02/pk02_floor01
+textures/plat23_pk02/light01_blue_2000
 {
-	qer_editorimage textures/plat23_pk02/pk02_floor01_C
-	diffusemap 	textures/plat23_pk02/pk02_floor01_C
-	specularmap 	textures/plat23_pk02/pk02_floor01_S
-	bumpmap 	textures/plat23_pk02/pk02_floor01_N
+	qer_editorImage     textures/shared_pk02_src/light01_p
+
+	q3map_surfacelight  2000
+	q3map_lightRGB      0.8 0.9 1.0
+
+	diffuseMap          textures/shared_pk02_src/light01_d
+	normalMap           textures/shared_pk02_src/light01_n
+	specularMap         textures/shared_pk02_src/light01_s
+	{
+		map   textures/shared_pk02_src/light01_a
+		blend add
+		red   0.2
+		green 0.2
+		blue  0.3
+	}
 }
 
-textures/plat23_pk02/pk02_floor03
+textures/plat23_pk02/light01_red_2000
 {
-	qer_editorimage textures/plat23_pk02/pk02_floor03_C
-	diffusemap 	textures/plat23_pk02/pk02_floor03_C
-	specularmap 	textures/plat23_pk02/pk02_floor03_S
-	bumpmap 	textures/plat23_pk02/pk02_floor03_N
+	qer_editorImage     textures/shared_pk02_src/light01_p
+
+	q3map_surfacelight  2000
+	q3map_lightRGB      0.8 0.4 0.4
+
+	diffuseMap          textures/shared_pk02_src/light01_d
+	normalMap           textures/shared_pk02_src/light01_n
+	specularMap         textures/shared_pk02_src/light01_s
+	{
+		map   textures/shared_pk02_src/light01_a
+		blend add
+		red   0.6
+		green 0.3
+		blue  0.3
+	}
 }
 
-textures/plat23_pk02/pk02_floor04
+textures/plat23_pk02/light01_yellow_2000
 {
-	qer_editorimage textures/plat23_pk02/pk02_floor04_C
-	diffusemap 	textures/plat23_pk02/pk02_floor04_C
-	specularmap 	textures/plat23_pk02/pk02_floor04_S
-	bumpmap 	textures/plat23_pk02/pk02_floor04_N
+	qer_editorImage     textures/shared_pk02_src/light01_p
+
+	q3map_surfacelight  2000
+	q3map_lightRGB      1.0 0.6 0.45
+
+	diffuseMap          textures/shared_pk02_src/light01_d
+	normalMap           textures/shared_pk02_src/light01_n
+	specularMap         textures/shared_pk02_src/light01_s
+	{
+		map   textures/shared_pk02_src/light01_a
+		blend add
+		red   0.8
+		green 0.5
+		blue  0.35
+	}
 }
 
-textures/plat23_pk02/pk02_floor05
+textures/plat23_pk02/light01_yellow_5000
 {
-	qer_editorimage textures/plat23_pk02/pk02_floor05_C
-	diffusemap 	textures/plat23_pk02/pk02_floor05_C
-	specularmap 	textures/plat23_pk02/pk02_floor05_S
-	bumpmap 	textures/plat23_pk02/pk02_floor05_N
+	qer_editorImage     textures/shared_pk02_src/light01_p
+
+	q3map_surfacelight  5000
+	q3map_lightRGB      1.0 0.6 0.45
+
+	diffuseMap          textures/shared_pk02_src/light01_d
+	normalMap           textures/shared_pk02_src/light01_n
+	specularMap         textures/shared_pk02_src/light01_s
+	{
+		map   textures/shared_pk02_src/light01_a
+		blend add
+		red   0.8
+		green 0.5
+		blue  0.35
+	}
 }
 
-textures/plat23_pk02/pk02_floor06a
+textures/plat23_pk02/light02_orange_2000
 {
-	qer_editorimage textures/plat23_pk02/pk02_floor06a_C
-	diffusemap 	textures/plat23_pk02/pk02_floor06a_C
-	specularmap 	textures/plat23_pk02/pk02_floor06a_S
-	bumpmap 	textures/plat23_pk02/pk02_floor06a_N
+	qer_editorImage     textures/shared_pk02_src/light02_p
+
+	q3map_surfacelight  2000
+	q3map_lightRGB      0.8 0.4 0.25
+
+	diffuseMap          textures/shared_pk02_src/light02_d
+	normalMap           textures/shared_pk02_src/light02_n
+	specularMap         textures/shared_pk02_src/light02_s
+	{
+		map   textures/shared_pk02_src/light02_a
+		blend add
+		red   0.8
+		green 0.4
+		blue  0.25
+	}
 }
 
-textures/plat23_pk02/pk02_floor12a
+textures/plat23_pk02/light02_orange_3000
 {
-	qer_editorimage textures/plat23_pk02/pk02_floor12a_C
-	diffusemap 	textures/plat23_pk02/pk02_floor12a_C
-	specularmap 	textures/plat23_pk02/pk02_floor12_S
-	bumpmap 	textures/plat23_pk02/pk02_floor12_N
+	qer_editorImage     textures/shared_pk02_src/light02_p
+
+	q3map_surfacelight  3000
+	q3map_lightRGB      0.8 0.4 0.25
+
+	diffuseMap          textures/shared_pk02_src/light02_d
+	normalMap           textures/shared_pk02_src/light02_n
+	specularMap         textures/shared_pk02_src/light02_s
+	{
+		map   textures/shared_pk02_src/light02_a
+		blend add
+		red   0.8
+		green 0.4
+		blue  0.25
+	}
 }
 
-textures/plat23_pk02/pk02_floor12b
+textures/plat23_pk02/light02_yellow_2000
 {
-	qer_editorimage textures/plat23_pk02/pk02_floor12b_C
-	diffusemap 	textures/plat23_pk02/pk02_floor12b_C
-	specularmap 	textures/plat23_pk02/pk02_floor12_S
-	bumpmap 	textures/plat23_pk02/pk02_floor12_N
+	qer_editorImage     textures/shared_pk02_src/light02_p
+
+	q3map_surfacelight  2000
+	q3map_lightRGB      1.0 0.825 0.5
+
+	diffuseMap          textures/shared_pk02_src/light02_d
+	normalMap           textures/shared_pk02_src/light02_n
+	specularMap         textures/shared_pk02_src/light02_s
+	{
+		map   textures/shared_pk02_src/light02_a
+		blend add
+		red   1.0
+		green 0.825
+		blue  0.5
+	}
 }
 
-textures/plat23_pk02/pk02_generic01b
+textures/plat23_pk02/light02_yellow_3000
 {
-	qer_editorimage textures/plat23_pk02/pk02_generic01b_C
-	diffusemap 	textures/plat23_pk02/pk02_generic01b_C
-	specularmap 	textures/plat23_pk02/pk02_generic01_S
-	bumpmap 	textures/plat23_pk02/pk02_generic01_N
+	qer_editorImage     textures/shared_pk02_src/light02_p
+
+	q3map_surfacelight  3000
+	q3map_lightRGB      1.0 0.825 0.5
+
+	diffuseMap          textures/shared_pk02_src/light02_d
+	normalMap           textures/shared_pk02_src/light02_n
+	specularMap         textures/shared_pk02_src/light02_s
+	{
+		map   textures/shared_pk02_src/light02_a
+		blend add
+		red   1.0
+		green 0.825
+		blue  0.5
+	}
 }
 
-textures/plat23_pk02/pk02_light01a
+textures/plat23_pk02/light03_blue_750
 {
-	qer_editorimage textures/plat23_pk02/pk02_light01a_C
-	diffusemap 	textures/plat23_pk02/pk02_light01a_C
-	specularmap 	textures/plat23_pk02/pk02_light01_S
-	bumpmap 	textures/plat23_pk02/pk02_light01_N
-	q3map_surfacelight 1500
-	q3map_lightimage textures/plat23_pk02/pk02_light01_I
-	q3map_lightRGB 1 0.9 0.75
+	qer_editorImage     textures/shared_pk02_src/light03_p
+
+	q3map_surfacelight  750
+	q3map_lightRGB      0.8 0.9 1.0
+
+	diffuseMap          textures/shared_pk02_src/light03_d
+	normalMap           textures/shared_pk02_src/light03_n
+	specularMap         textures/shared_pk02_src/light03_s
+	{
+		map   textures/shared_pk02_src/light03_a
+		blend add
+		red   0.4
+		green 0.4
+		blue  0.6
+	}
 }
 
-textures/plat23_pk02/pk02_light01a-small
+textures/plat23_pk02/light03_red_750
 {
-	qer_editorimage textures/plat23_pk02/pk02_light01a_C
-	diffusemap 	textures/plat23_pk02/pk02_light01a_C
-	specularmap 	textures/plat23_pk02/pk02_light01_S
-	bumpmap 	textures/plat23_pk02/pk02_light01_N
-	q3map_surfacelight 5000
-	q3map_lightimage textures/plat23_pk02/pk02_light01_I
-	q3map_lightRGB 1 0.9 0.75
+	qer_editorImage     textures/shared_pk02_src/light03_p
+
+	q3map_surfacelight  750
+	q3map_lightRGB      0.8 0.4 0.4
+
+	diffuseMap          textures/plat23_pk02_src/light03a_d
+	normalMap           textures/shared_pk02_src/light03_n
+	specularMap         textures/shared_pk02_src/light03_s
+	{
+		map   textures/shared_pk02_src/light03_a
+		blend add
+		red   0.8
+		green 0.4
+		blue  0.4
+	}
 }
 
-textures/plat23_pk02/pk02_light01b
+textures/plat23_pk02/pipes01_250
 {
-	qer_editorimage textures/plat23_pk02/pk02_light01b_C
-	diffusemap 	textures/plat23_pk02/pk02_light01b_C
-	specularmap 	textures/plat23_pk02/pk02_light01_S
-	bumpmap 	textures/plat23_pk02/pk02_light01_N
-	q3map_surfacelight 2000
-	q3map_lightimage textures/plat23_pk02/pk02_light01_I
-	q3map_lightRGB 0.8 1 1
+	qer_editorImage     textures/shared_pk02_src/pipes01_p
+
+	q3map_surfacelight  250
+	q3map_lightRGB      0.8 0.4 0.4
+
+	diffuseMap          textures/plat23_pk02_src/pipes01a_d
+	normalMap           textures/shared_pk02_src/pipes01_n
+	specularMap         textures/shared_pk02_src/pipes01_s
 }
 
-textures/plat23_pk02/pk02_light01c
+textures/plat23_pk02/rock01_terrain_xy
 {
-	qer_editorimage textures/plat23_pk02/pk02_light01c_C
-	diffusemap 	textures/plat23_pk02/pk02_light01c_C
-	specularmap 	textures/plat23_pk02/pk02_light01_S
-	bumpmap 	textures/plat23_pk02/pk02_light01_N
-	q3map_surfacelight 2000
-	q3map_lightimage textures/plat23_pk02/pk02_light01_I
-	q3map_lightRGB 1 0.6 0.6
+	qer_editorImage     textures/shared_pk02_src/rock01_p
+	
+	q3map_nonplanar
+	q3map_shadeAngle 90
+	q3map_tcGen ivector ( 256 0 0 ) ( 0 256 0 )
+	
+	diffuseMap          textures/shared_pk02_src/rock01_d
+	normalMap           textures/shared_pk02_src/rock01_n
+	specularMap         textures/shared_pk02_src/rock01_s
 }
 
-textures/plat23_pk02/pk02_light03
+textures/plat23_pk02/rock01_terrain_xz
 {
-	qer_editorimage textures/plat23_pk02/pk02_light03_C
-	diffusemap 	textures/plat23_pk02/pk02_light03_C
-	specularmap 	textures/plat23_pk02/pk02_light03_S
-	bumpmap 	textures/plat23_pk02/pk02_light03_N
-	q3map_surfacelight 1000
-	q3map_lightimage textures/plat23_pk02/pk02_light03_I
-	q3map_lightRGB 0.8 1 1
+	qer_editorImage     textures/shared_pk02_src/rock01_p
+	
+	q3map_nonplanar
+	q3map_shadeAngle 90
+	q3map_tcGen ivector ( 256 0 0 ) ( 0 0 256 )
+	
+	diffuseMap          textures/shared_pk02_src/rock01_d
+	normalMap           textures/shared_pk02_src/rock01_n
+	specularMap         textures/shared_pk02_src/rock01_s
 }
 
-textures/plat23_pk02/pk02_light03a
+textures/plat23_pk02/rock01_terrain_yz
 {
-	qer_editorimage textures/plat23_pk02/pk02_light03a_C
-	diffusemap 	textures/plat23_pk02/pk02_light03a_C
-	specularmap 	textures/plat23_pk02/pk02_light03_S
-	bumpmap 	textures/plat23_pk02/pk02_light03_N
-	q3map_surfacelight 1000
-	q3map_lightimage textures/plat23_pk02/pk02_light03_I
-	q3map_lightRGB 1 0.6 0.6
+	qer_editorImage     textures/shared_pk02_src/rock01_p
+	
+	q3map_nonplanar
+	q3map_shadeAngle 90
+	q3map_tcGen ivector ( 0 256 0 ) ( 0 0 256 )
+	
+	diffuseMap          textures/shared_pk02_src/rock01_d
+	normalMap           textures/shared_pk02_src/rock01_n
+	specularMap         textures/shared_pk02_src/rock01_s
 }
 
-textures/plat23_pk02/pk02_panels01b
+textures/plat23_pk02/switches01b_250
 {
-	qer_editorimage textures/plat23_pk02/pk02_panels01b_C
-	diffusemap 	textures/plat23_pk02/pk02_panels01b_C
-	specularmap 	textures/plat23_pk02/pk02_panels01b_S
-	bumpmap 	textures/plat23_pk02/pk02_panels01b_N
-}
+	qer_editorImage     textures/shared_pk02_src/switches01b_p
 
-textures/plat23_pk02/pk02_panels01c
-{
-	qer_editorimage textures/plat23_pk02/pk02_panels01c_C
-	diffusemap 	textures/plat23_pk02/pk02_panels01c_C
-	specularmap 	textures/plat23_pk02/pk02_panels01c_S
-	bumpmap 	textures/plat23_pk02/pk02_panels01c_N
-}
+	q3map_surfacelight  250
+	q3map_lightRGB      0.8 0.9 1.0
 
-textures/plat23_pk02/pk02_pipes01a
-{
-	qer_editorimage textures/plat23_pk02/pk02_pipes01a_C
-	diffusemap 	textures/plat23_pk02/pk02_pipes01a_C
-	specularmap 	textures/plat23_pk02/pk02_pipes01_S
-	bumpmap 	textures/plat23_pk02/pk02_pipes01_N
-	q3map_surfacelight 250
-	q3map_lightimage textures/plat23_pk02/pk02_pipes01_I
-	q3map_lightRGB 1 0.6 0.6
-}
-
-textures/plat23_pk02/pk02_rock01
-{
-	qer_editorimage textures/plat23_pk02/pk02_rock01_C
-	diffusemap 	textures/plat23_pk02/pk02_rock01_C
-	specularmap 	textures/plat23_pk02/pk02_rock01_S
-	bumpmap 	textures/plat23_pk02/pk02_rock01_N
-}
-
-textures/plat23_pk02/pk02_sand01
-{
-	qer_editorimage textures/plat23_pk02/pk02_sand01_C
-	diffusemap 	textures/plat23_pk02/pk02_sand01_C
-	specularmap 	textures/plat23_pk02/pk02_sand01_S
-	bumpmap 	textures/plat23_pk02/pk02_sand01_N
-}
-
-textures/plat23_pk02/pk02_switches01a
-{
-	qer_editorimage textures/plat23_pk02/pk02_switches01a_C
-	diffusemap 	textures/plat23_pk02/pk02_switches01a_C
-	specularmap 	textures/plat23_pk02/pk02_switches01a_S
-	bumpmap 	textures/plat23_pk02/pk02_switches01a_N
-}
-
-textures/plat23_pk02/pk02_switches01b
-{
-	qer_editorimage textures/plat23_pk02/pk02_switches01b_C
-	diffusemap 	textures/plat23_pk02/pk02_switches01b_C
-	specularmap 	textures/plat23_pk02/pk02_switches01b_S
-	bumpmap 	textures/plat23_pk02/pk02_switches01b_N
-	q3map_surfacelight 250
-	q3map_lightimage textures/plat23_pk02/pk02_switches01b_I
-	q3map_lightRGB 0.8 1 1
-}
-
-textures/plat23_pk02/pk02_trim01
-{
-	qer_editorimage textures/plat23_pk02/pk02_trim01_C
-	diffusemap 	textures/plat23_pk02/pk02_trim01_C
-	specularmap 	textures/plat23_pk02/pk02_trim01_S
-	bumpmap 	textures/plat23_pk02/pk02_trim01_N
-}
-
-textures/plat23_pk02/pk02_trim02
-{
-	qer_editorimage textures/plat23_pk02/pk02_trim02_C
-	diffusemap 	textures/plat23_pk02/pk02_trim02_C
-	specularmap 	textures/plat23_pk02/pk02_trim02_S
-	bumpmap 	textures/plat23_pk02/pk02_trim02_N
-}
-
-textures/plat23_pk02/pk02_trim03
-{
-	qer_editorimage textures/plat23_pk02/pk02_trim03_C
-	diffusemap 	textures/plat23_pk02/pk02_trim03_C
-	specularmap 	textures/plat23_pk02/pk02_trim03_S
-	bumpmap 	textures/plat23_pk02/pk02_trim03_N
-}
-
-textures/plat23_pk02/pk02_trim04a
-{
-	qer_editorimage textures/plat23_pk02/pk02_trim04a_C
-	diffusemap 	textures/plat23_pk02/pk02_trim04a_C
-	specularmap 	textures/plat23_pk02/pk02_trim04a_S
-	bumpmap 	textures/plat23_pk02/pk02_trim04a_N
-}
-
-textures/plat23_pk02/pk02_trim04b
-{
-	qer_editorimage textures/plat23_pk02/pk02_trim04b_C
-	diffusemap 	textures/plat23_pk02/pk02_trim04b_C
-	specularmap 	textures/plat23_pk02/pk02_trim04b_S
-	bumpmap 	textures/plat23_pk02/pk02_trim04b_N
-}
-
-textures/plat23_pk02/pk02_wall_big02a
-{
-	qer_editorimage textures/plat23_pk02/pk02_wall_big02a_C
-	diffusemap 	textures/plat23_pk02/pk02_wall_big02a_C
-	specularmap 	textures/plat23_pk02/pk02_wall_big02a_S
-	bumpmap 	textures/plat23_pk02/pk02_wall_big02a_N
-}
-
-textures/plat23_pk02/pk02_wall_big02b
-{
-	qer_editorimage textures/plat23_pk02/pk02_wall_big02b_C
-	diffusemap 	textures/plat23_pk02/pk02_wall_big02b_C
-	specularmap 	textures/plat23_pk02/pk02_wall_big02b_S
-	bumpmap 	textures/plat23_pk02/pk02_wall_big02b_N
-}
-
-textures/plat23_pk02/pk02_wall03b
-{
-	qer_editorimage textures/plat23_pk02/pk02_wall03b_C
-	diffusemap 	textures/plat23_pk02/pk02_wall03b_C
-	specularmap 	textures/plat23_pk02/pk02_wall03b_S
-	bumpmap 	textures/plat23_pk02/pk02_wall03b_N
-}
-
-textures/plat23_pk02/pk02_wall05c
-{
-	qer_editorimage textures/plat23_pk02/pk02_wall05c_C
-	diffusemap 	textures/plat23_pk02/pk02_wall05c_C
-	specularmap 	textures/plat23_pk02/pk02_wall05c_S
-	bumpmap 	textures/plat23_pk02/pk02_wall05c_N
-}
-
-textures/plat23_pk02/pk02_wall06a
-{
-	qer_editorimage textures/plat23_pk02/pk02_wall06a_C
-	diffusemap 	textures/plat23_pk02/pk02_wall06a_C
-	specularmap 	textures/plat23_pk02/pk02_wall06a_S
-	bumpmap 	textures/plat23_pk02/pk02_wall06a_N
-}
-
-textures/plat23_pk02/pk02_wall08a
-{
-	qer_editorimage textures/plat23_pk02/pk02_wall08a_C
-	diffusemap 	textures/plat23_pk02/pk02_wall08a_C
-	specularmap 	textures/plat23_pk02/pk02_wall08_S
-	bumpmap 	textures/plat23_pk02/pk02_wall08_N
+	diffuseMap          textures/shared_pk02_src/switches01b_d
+	normalMap           textures/shared_pk02_src/switches01b_n
+	specularMap         textures/shared_pk02_src/switches01b_s
+	{
+		map   textures/shared_pk02_src/switches01b_a
+		blend add
+		red   0.2
+		green 0.2
+		blue  0.3
+	}
 }

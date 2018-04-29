@@ -1,5 +1,7 @@
 Platform 23
 
+Version: Beta 12
+
 By Emperor Jack
 
 An Atcs inspired map with some twists. For Unvanquished.
@@ -30,12 +32,12 @@ ________________________________________________________________________________
 
 Map/Compile information:
 
-Brush count: 3200
-Entity count: 59
+Brush count: 3495
+Entity count: 60
 
--meta -custinfoparms -keeplights -samplesize 8											: 9 Seconds
--vis -saveprt															: 2 Seconds
--light -fast -shade -dirty -patchshadows -deluxe -deluxemode 0 -lightmapsize 512 -samples 3 -samplesize 8 -bouncegrid -bounce 6	: 542 Seconds
+-meta -custinfoparms -keeplights -samplesize 8 : 10 Seconds
+-vis -saveprt : 2 Seconds
+-light -fast -shade -dirty -patchshadows -samples 3 -bouncegrid -bounce 6 -samplesize 8  -lightmapsize 512 -deluxe : 469 Seconds
 ______________________________________________________________________________________________
 
 Licensing: Creative Commons
