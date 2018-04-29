@@ -2,7 +2,7 @@ Platform 23
 
 By Emperor Jack
 
-An Atcs inspired map for Unvanquished.
+An Atcs inspired map with some twists. for Unvanquished.
 
 ______________________________________________________________________________________________
 
@@ -21,7 +21,6 @@ Applications used:
  -Gimp 2
  -Terragen Classic
 
-Help of Unvanquished team with all Bump mapping ETC!!! (B4 no bump for compiler issues :P)
 ______________________________________________________________________________________________
 Licensing: Creative Commons
 
@@ -52,6 +51,4 @@ ________________________________________________________________________________
 
 By EmperorJack for Unvanquished
 
-Note: New Builds are possible, aka with new skybox etc, Bump mapping fixes... Who knows!?
-
-Also Note on the .map, it will have to be scaled up by 0.25 on all axes for any modification as it was reduced because of size issues.
+Note on the .map, it will have to be scaled up by 0.25 on all axes for any modification as it was reduced because of scale issues.

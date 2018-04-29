@@ -11,62 +11,98 @@ textures/plat23/plat23_skybox
 	skyparms env/plat23/plat23sky - -
 }
 
-textures/plat23/blueflare
+textures/pk02/pk02_light01b
 {
-	qer_editorimage textures/plat23/blueflare.tga
-	surfaceparm nolightmap
 	surfaceparm nomarks
-	surfaceparm nonsolid
-	surfaceparm trans
-	cull disable
-	qer_trans 0.6
+	q3map_surfacelight 2500
+	qer_editorimage textures/pk02/pk02_light01b_C.tga
 	{
-		map textures/plat23/blueflare.tga
-		blendfunc add
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/pk02/pk02_light01b_C.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
 	}
 }
 
-textures/plat23/redflare
+textures/pk02/pk02_light01c
 {
-	qer_editorimage textures/plat23/redflare.tga
-	surfaceparm nolightmap
 	surfaceparm nomarks
-	surfaceparm nonsolid
-	surfaceparm trans
-	cull disable
-	qer_trans 0.6
+	q3map_surfacelight 2500
+	qer_editorimage textures/pk02/pk02_light01c_C.tga
 	{
-		map textures/plat23/redflare.tga
-		blendfunc add
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/pk02/pk02_light01c_C.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
 	}
 }
 
-textures/plat23/whiteflare
+textures/pk02/pk02_light02c
 {
-	qer_editorimage textures/plat23/whiteflare.tga
-	surfaceparm nolightmap
 	surfaceparm nomarks
-	surfaceparm nonsolid
-	surfaceparm trans
-	cull disable
-	qer_trans 0.6
+	q3map_surfacelight 1500
+	qer_editorimage textures/pk02/pk02_light02c_C.tga
 	{
-		map textures/plat23/whiteflare.tga
-		blendfunc add
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/pk02/pk02_light02c_C.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
 	}
 }
 
-textures/plat23/orangeflare
+textures/pk02/pk02_light03
 {
-	qer_editorimage textures/plat23/orangeflare.tga
-	surfaceparm nolightmap
 	surfaceparm nomarks
-	surfaceparm nonsolid
-	surfaceparm trans
-	cull disable
-	qer_trans 0.6
+	q3map_surfacelight 1500
+	qer_editorimage textures/pk02/pk02_light03_C.tga
 	{
-		map textures/plat23/orangeflare.tga
-		blendfunc add
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/pk02/pk02_light03_C.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/pk02/pk02_light03a
+{
+	surfaceparm nomarks
+	q3map_surfacelight 1500
+	qer_editorimage textures/pk02/pk02_light03a_C.tga
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/pk02/pk02_light03a_C.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
+	}
+}
+
+textures/pk02/pk02_computer01a
+{
+	surfaceparm nomarks
+	q3map_surfacelight 500
+	qer_editorimage textures/pk02/pk02_computer01a_C.tga
+	{
+		map $lightmap
+		rgbGen identity
+	}
+	{
+		map textures/pk02/pk02_computer01a_C.tga
+		blendFunc GL_DST_COLOR GL_ZERO
+		rgbGen identity
 	}
 }
