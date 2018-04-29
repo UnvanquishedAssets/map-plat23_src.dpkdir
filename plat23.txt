@@ -25,7 +25,9 @@ Applications used:
 
 ______________________________________________________________________________________________
 
-Compile information:
+Map/Compile information:
+
+Brush count: 3144
 
 -meta -custinfoparms -keeplights -samplesize 8											: 7 Seconds
 -vis -saveprt															: 2 Seconds
