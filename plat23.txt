@@ -27,9 +27,9 @@ ________________________________________________________________________________
 
 Compile information:
 
--meta -custinfoparms -keeplights -samplesize 8								: 8 Seconds
--vis -saveprt												: 14 Seconds
--light -faster -dirty -patchshadows -samples 2  -samplesize 8 -deluxe -deluxemode 1 -lightmapsize 512	: 57 Seconds
+-meta -custinfoparms -keeplights -samplesize 8											: 7 Seconds
+-vis -saveprt															: 2 Seconds
+-light -fast -shade -dirty -patchshadows -deluxe -deluxemode 0 -lightmapsize 512 -samples 3 -samplesize 8 -bouncegrid -bounce 6	: 413 Seconds
 ______________________________________________________________________________________________
 
 Licensing: Creative Commons

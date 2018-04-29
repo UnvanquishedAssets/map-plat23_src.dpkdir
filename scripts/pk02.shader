@@ -28,13 +28,9 @@ textures/pk02/pk02_computer01a
 	diffusemap 	textures/pk02/pk02_computer01a_C.tga
 	specularmap 	textures/pk02/pk02_computer01a_S.tga
 	bumpmap 	textures/pk02/pk02_computer01a_N.tga
-	{
-		blend add
-//		map textures/pk02/pk02_computer01a_I.tga
-		red 1
-		green 1
-		blue 1
-	}	
+	q3map_surfacelight 250
+	q3map_lightimage textures/pk02/pk02_computer01a_I.tga
+	q3map_lightRGB 0.8 1 1	
 }
 
 textures/pk02/pk02_computer01b
@@ -273,13 +269,18 @@ textures/pk02/pk02_light01a
 	diffusemap 	textures/pk02/pk02_light01a_C.tga
 	specularmap 	textures/pk02/pk02_light01_S.tga
 	bumpmap 	textures/pk02/pk02_light01_N.tga
-	{
-		blend add
-		map textures/pk02/pk02_light02_I.tga
-		red 1
-		green 1
-		blue 1
-	}		
+	q3map_surfacelight 2000
+	q3map_lightRGB 1 0.9 0.75		
+}
+
+textures/pk02/pk02_light01a-small
+{
+	qer_editorimage textures/pk02/pk02_light01a_C.tga
+	diffusemap 	textures/pk02/pk02_light01a_C.tga
+	specularmap 	textures/pk02/pk02_light01_S.tga
+	bumpmap 	textures/pk02/pk02_light01_N.tga
+	q3map_surfacelight 5000
+	q3map_lightRGB 1 0.9 0.75		
 }
 
 textures/pk02/pk02_light01b
@@ -288,13 +289,8 @@ textures/pk02/pk02_light01b
 	diffusemap 	textures/pk02/pk02_light01b_C.tga
 	specularmap 	textures/pk02/pk02_light01_S.tga
 	bumpmap 	textures/pk02/pk02_light01_N.tga
-	{
-		blend add
-//		map textures/pk02/pk02_light02_I.tga
-		red 1
-		green 1
-		blue 1
-	}		
+	q3map_surfacelight 1500
+	q3map_lightRGB 0.8 1 1		
 }
 
 textures/pk02/pk02_light01c
@@ -303,13 +299,8 @@ textures/pk02/pk02_light01c
 	diffusemap 	textures/pk02/pk02_light01c_C.tga
 	specularmap 	textures/pk02/pk02_light01_S.tga
 	bumpmap 	textures/pk02/pk02_light01_N.tga
-	{
-		blend add
-//		map textures/pk02/pk02_light02_I.tga
-		red 1
-		green 1
-		blue 1
-	}		
+	q3map_surfacelight 2000
+	q3map_lightRGB 1 0.6 0.6		
 }
 
 textures/pk02/pk02_light02a
@@ -364,13 +355,9 @@ textures/pk02/pk02_light03
 	diffusemap 	textures/pk02/pk02_light03_C.tga
 	specularmap 	textures/pk02/pk02_light03_S.tga
 	bumpmap 	textures/pk02/pk02_light03_N.tga
-	{
-		blend add
-//		map textures/pk02/pk02_light03_I.tga
-		red 1
-		green 1
-		blue 1
-	}		
+	q3map_surfacelight 1000
+	q3map_lightimage textures/pk02/pk02_light03_I.tga
+	q3map_lightRGB 0.8 1 1		
 }
 
 textures/pk02/pk02_light03a
@@ -379,13 +366,9 @@ textures/pk02/pk02_light03a
 	diffusemap 	textures/pk02/pk02_light03a_C.tga
 	specularmap 	textures/pk02/pk02_light03_S.tga
 	bumpmap 	textures/pk02/pk02_light03_N.tga
-	{
-		blend add
-//		map textures/pk02/pk02_light03_I.tga
-		red 1
-		green 1
-		blue 1
-	}		
+	q3map_surfacelight 1000
+	q3map_lightimage textures/pk02/pk02_light03_I.tga
+	q3map_lightRGB 1 0.6 0.6		
 }
 
 textures/pk02/pk02_panels01a
@@ -426,6 +409,9 @@ textures/pk02/pk02_pipes01a
 	diffusemap 	textures/pk02/pk02_pipes01a_C.tga
 	specularmap 	textures/pk02/pk02_pipes01_S.tga
 	bumpmap 	textures/pk02/pk02_pipes01_N.tga
+	q3map_surfacelight 250
+	q3map_lightimage textures/pk02/pk02_pipes01_I.tga
+	q3map_lightRGB 1 0.6 0.6
 }
 
 textures/pk02/pk02_plates01a
