@@ -78,7 +78,7 @@ textures/plat23_pk02/light01_red_2000
 	qer_editorImage     textures/shared_pk02_src/light01_p
 
 	q3map_surfacelight  2000
-	q3map_lightRGB      0.8 0.4 0.4
+	q3map_lightRGB      1 0.5 0.5
 
 	diffuseMap          textures/shared_pk02_src/light01_d
 	normalMap           textures/shared_pk02_src/light01_n
@@ -135,7 +135,7 @@ textures/plat23_pk02/light02_orange_2000
 	qer_editorImage     textures/shared_pk02_src/light02_p
 
 	q3map_surfacelight  2000
-	q3map_lightRGB      0.8 0.4 0.25
+	q3map_lightRGB		1.0	0.5	0.3
 
 	diffuseMap          textures/shared_pk02_src/light02_d
 	normalMap           textures/shared_pk02_src/light02_n
@@ -154,7 +154,7 @@ textures/plat23_pk02/light02_orange_3000
 	qer_editorImage     textures/shared_pk02_src/light02_p
 
 	q3map_surfacelight  3000
-	q3map_lightRGB      0.8 0.4 0.25
+	q3map_lightRGB		1.0	0.5	0.3
 
 	diffuseMap          textures/shared_pk02_src/light02_d
 	normalMap           textures/shared_pk02_src/light02_n
@@ -230,7 +230,7 @@ textures/plat23_pk02/light03_red_750
 	qer_editorImage     textures/shared_pk02_src/light03_p
 
 	q3map_surfacelight  750
-	q3map_lightRGB      0.8 0.4 0.4
+	q3map_lightRGB      1.0 0.5 0.5
 
 	diffuseMap          textures/plat23_pk02_src/light03a_d
 	normalMap           textures/shared_pk02_src/light03_n
@@ -249,7 +249,7 @@ textures/plat23_pk02/pipes01_250
 	qer_editorImage     textures/shared_pk02_src/pipes01_p
 
 	q3map_surfacelight  250
-	q3map_lightRGB      0.8 0.4 0.4
+	q3map_lightRGB      1.0 0.5 0.5
 
 	diffuseMap          textures/plat23_pk02_src/pipes01a_d
 	normalMap           textures/shared_pk02_src/pipes01_n

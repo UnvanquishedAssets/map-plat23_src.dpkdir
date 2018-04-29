@@ -1,6 +1,6 @@
 Platform 23
 
-Version: Beta 12
+Version: Beta 13
 
 By Emperor Jack
 
@@ -35,9 +35,9 @@ Map/Compile information:
 Brush count: 3495
 Entity count: 60
 
--meta -custinfoparms -keeplights -samplesize 8 : 10 Seconds
+-meta -custinfoparms -keeplights -samplesize 8 : 9 Seconds
 -vis -saveprt : 2 Seconds
--light -fast -shade -dirty -patchshadows -samples 3 -bouncegrid -bounce 6 -samplesize 8  -lightmapsize 512 -deluxe : 469 Seconds
+-light -fast -shade -dirty -patchshadows -samples 3 -bouncegrid -bounce 6 -samplesize 8  -lightmapsize 512 -deluxe : 471 Seconds
 ______________________________________________________________________________________________
 
 Licensing: Creative Commons

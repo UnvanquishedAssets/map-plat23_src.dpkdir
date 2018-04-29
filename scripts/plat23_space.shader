@@ -17,7 +17,7 @@ textures/plat23_space/sky07
 {
 	qer_editorimage textures/shared_space_src/sky07_p
 
-	q3map_skylight 50 3
+	q3map_skylight 65 4
 	q3map_lightRGB 1.0 1.0 1.0
 
 	surfaceparm noimpact
