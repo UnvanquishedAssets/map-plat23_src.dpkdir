@@ -19,19 +19,23 @@ Very big thanks to him
 
 Also the trusty Ingar for the Osirion skybox texture
 
+Forcefield textures made by me
+
 Applications used:
 
  -Netradiant
+ -Photoshop
 
 ______________________________________________________________________________________________
 
 Map/Compile information:
 
-Brush count: 3144
+Brush count: 3200
+Entity count: 59
 
--meta -custinfoparms -keeplights -samplesize 8											: 7 Seconds
+-meta -custinfoparms -keeplights -samplesize 8											: 9 Seconds
 -vis -saveprt															: 2 Seconds
--light -fast -shade -dirty -patchshadows -deluxe -deluxemode 0 -lightmapsize 512 -samples 3 -samplesize 8 -bouncegrid -bounce 6	: 413 Seconds
+-light -fast -shade -dirty -patchshadows -deluxe -deluxemode 0 -lightmapsize 512 -samples 3 -samplesize 8 -bouncegrid -bounce 6	: 542 Seconds
 ______________________________________________________________________________________________
 
 Licensing: Creative Commons
@@ -62,5 +66,3 @@ Notice — For any reuse or distribution, you must make clear to others the licens
 ______________________________________________________________________________________________
 
 By EmperorJack for Unvanquished
-
-This version is a revised brushwork version. The entire map's brushwork was redone for ease of edit. This allowed me to bring the map up to a proper brushwork standard. Note some areas may still be WIP because of this.
