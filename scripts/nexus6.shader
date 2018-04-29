@@ -1,6 +1,6 @@
 textures/nexus6/proto_fence
 {
-	qer_editorimage textures/nexus6/objects_fence.tga
+	qer_editorimage textures/nexus6/objects_fence.webp
 	surfaceparm noimpact
 	surfaceparm playerclip
 	surfaceparm trans		
@@ -9,7 +9,7 @@ textures/nexus6/proto_fence
 	cull none
         nopicmip
 	{
-		map textures/nexus6/objects_fence.tga
+		map textures/nexus6/objects_fence.webp
 		tcMod scale 3 3
 		blendFunc GL_ONE GL_ZERO
 		alphaFunc GE128

@@ -2,11 +2,11 @@ Platform 23
 
 By Emperor Jack
 
-An Atcs inspired map with some twists. for Unvanquished.
+An Atcs inspired map with some twists. For Unvanquished.
 
 ______________________________________________________________________________________________
 
-Backstory Humans: A platform on one of Humanity's many planets. Provides fuel and resource for incoming ships. Alien infestation spotted and a quarentine put in place. Human team teleported in to exterminate threat. Aliens wish to cut off supplies to ships in numerous areas on the planet and have attacked this platform.
+Backstory :A ship platform on one of Humanity's many planets. Provides fuel and resource for incoming ships. Alien infestation spotted and a quarentine put in place. Human team teleported in to exterminate threat. Aliens wish to cut off supplies to ships in numerous areas on the planet and have attacked this platform.
 
 2vs2 or more
 3vs3 and 4vs4 most applicable
@@ -22,6 +22,14 @@ Applications used:
  -Terragen Classic
 
 ______________________________________________________________________________________________
+
+Compile information:
+
+-meta -custinfoparms -keeplights -samplesize 8								: 8 Seconds
+-vis -saveprt												: 14 Seconds
+-light -faster -dirty -patchshadows -samples 2  -samplesize 8 -deluxe -deluxemode 1 -lightmapsize 512	: 57 Seconds
+______________________________________________________________________________________________
+
 Licensing: Creative Commons
 
 http://creativecommons.org/licenses/by-nc-sa/3.0/nz/
@@ -51,4 +59,4 @@ ________________________________________________________________________________
 
 By EmperorJack for Unvanquished
 
-Note on the .map, it will have to be scaled up by 0.25 on all axes for any modification as it was reduced because of scale issues.
+Note on the .map, it will have to be scaled up by 0.25 on all axis for any modification as it was reduced because of scale issues. (The map was too spacious)
