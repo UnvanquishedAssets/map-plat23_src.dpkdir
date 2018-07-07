@@ -5,7 +5,7 @@
 
 textures/plat23_custom/forcefield
 {
-	qer_editorimage textures/plat23_custom_src/force_grid
+	qer_editorImage textures/plat23_custom_src/force_grid
 	surfaceparm trans
 	surfaceparm nomarks
 	surfaceparm nolightmap
@@ -25,7 +25,7 @@ textures/plat23_custom/forcefield
 
 textures/plat23_custom/lol
 {
-	qer_editorimage textures/plat23_custom_src/lol
+	qer_editorImage textures/plat23_custom_src/lol
 	surfaceparm noimpact
 	surfaceparm nonsolid
 	surfaceparm trans
