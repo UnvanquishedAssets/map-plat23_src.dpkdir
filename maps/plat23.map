@@ -31089,12 +31089,12 @@ shared_pk02/panels01c
 }
 {
 "classname" "team_alien_acid_tube"
-"origin" "2400.000000 1752.000000 16.000000"
+"origin" "2368.000000 1736.000000 16.000000"
 "angle" "-90.000000"
 }
 {
 "classname" "team_alien_acid_tube"
-"origin" "2400.000000 2088.000000 16.000000"
+"origin" "2368.000000 2104.000000 16.000000"
 "angle" "90.000000"
 }
 {
