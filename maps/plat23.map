@@ -31013,8 +31013,8 @@ shared_pk02/panels01c
 }
 {
 "classname" "team_human_spawn"
-"origin" "-2264.000000 2368.000000 160.000000"
-"angle" "-90.000000"
+"origin" "-2256.000000 2296.000000 160.000000"
+"angle" "180.000000"
 }
 {
 "classname" "team_human_reactor"
@@ -31326,7 +31326,7 @@ shared_pk02/panels01c
 }
 {
 "classname" "team_human_drill"
-"origin" "-2240.000000 2280.000000 168.000000"
+"origin" "-2240.000000 2400.000000 160.000000"
 }
 {
 "classname" "team_alien_leech"
