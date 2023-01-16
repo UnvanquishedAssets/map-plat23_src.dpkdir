@@ -1,7 +1,7 @@
 Platform 23 game level for Unvanquished
 =======================================
 
-![Platform 23 levelshot](meta/plat23/plat23.jpg)
+![Platform 23 levelshot](meta/plat23/plat23.webp)
 
 
 About
