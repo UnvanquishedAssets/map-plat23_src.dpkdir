@@ -1,5 +1,6 @@
 {
-map		"plat23"
-longname	"Platform 23 - b13"
-type		"tremulous"
+	map "plat23"
+	longname "Platform 23"
+	author "EmperorJack"
+	type "tremulous"
 }
