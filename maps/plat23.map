@@ -1,7 +1,7 @@
 {
 "classname" "worldspawn"
 "message" "Platform 23"
-"colorGrade" "gfx/plat23/colorgrading"
+"gradingTexture" "gfx/plat23/colorgrading"
 "reverbEffect" "spacestation_alcove"
 "reverbIntensity" "0.8"
 {
