@@ -16,6 +16,7 @@ textures/plat23_custom/forcefield
 	}
 	{
 		map textures/plat23_custom_src/forcegrid_a
+		rawColorMap
 		tcMod Scroll -.01 0
 		blendFunc add
 		rgbgen wave sin .2 .2 0 .4
