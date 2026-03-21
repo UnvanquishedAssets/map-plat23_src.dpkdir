@@ -289,6 +289,7 @@ textures/plat23_pk02/rock01_terrain_xy
 		diffuseMap textures/shared_pk02_src/rock01_d
 		normalMap textures/shared_pk02_src/rock01_n
 		specularMap textures/shared_pk02_src/rock01_s
+		rawSpecularMap
 	}
 }
 
@@ -304,6 +305,7 @@ textures/plat23_pk02/rock01_terrain_xz
 		diffuseMap textures/shared_pk02_src/rock01_d
 		normalMap textures/shared_pk02_src/rock01_n
 		specularMap textures/shared_pk02_src/rock01_s
+		rawSpecularMap
 	}
 }
 
@@ -319,6 +321,7 @@ textures/plat23_pk02/rock01_terrain_yz
 		diffuseMap textures/shared_pk02_src/rock01_d
 		normalMap textures/shared_pk02_src/rock01_n
 		specularMap textures/shared_pk02_src/rock01_s
+		rawSpecularMap
 	}
 }
 
